@@ -1,0 +1,1884 @@
+
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Helvetica-Regular';
+	src: url(../fonts/helvetica-regular.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+#main-container {
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-container, #row1 {
+	width: 1440px;
+	
+	
+}
+#row1 {
+	height: 694px;
+	background-image: url("../img/Vector_Smart_Object.jpg");
+	background-size: 100% 100%;
+	
+}
+.containerForcontent {
+	float: left;
+	width: 100%;
+}
+
+@media (min-width: 1440px) {
+	#title {
+	float: left;
+	font-family: 'Roboto-Medium';
+	font-size: 80px;
+	margin-left: 407px;
+	margin-top: 120px;
+	
+	}
+} 
+  
+#hr1, #row6hr {
+	border-width: 1px;
+	border-color: #c41230;
+	margin-top: -55px;
+	text-align: center;
+	width: 4%;
+
+}
+
+#row1text {
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	color: #222222;
+	margin-top: -20px;
+	font-family: 'Roboto-Regular';
+	letter-spacing: 0.02cm;
+}
+
+/*sidenav.a Safari*/
+#row1text2,.sidenav a {
+	display: none;
+}
+
+#line1, #line2, #line3, .row4box1, .row4box2, .row8line, .row8box {
+    float: left;
+}
+
+#line1 {
+	width: 50%;
+}
+
+#diwaneeLogo {
+	margin-left: 250px;
+	margin-top: 30px;
+}
+#line2, .row4box2 { 
+	width: 41.66666667%;
+
+	}
+
+#nav {
+	overflow: hidden;
+	margin-top: 45px;
+	margin-left: 130px;
+}
+div#nav a:hover {
+    color: #cccccc;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #222222;
+	font-size: 13px;
+	margin-left: 50px;
+	font-family: 'Roboto-Regular';
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+#line3 {
+	width: 8.33333333%;
+	}
+
+#menu {
+	visibility: hidden;
+}
+
+#menuMobile {
+	display: none;
+}
+.sidenav {
+    height: 374px;
+	width: 0;
+	position: absolute;
+    z-index: 1;
+	margin-top: 52px;
+	right: auto;
+	left: auto;
+    background-color: #111;
+    overflow-x: hidden;
+	transition: 0.5s;
+	-webkit-transition: 0.5s; /*Safari transition*/
+    padding-top: 60px;
+	text-align: center;
+	opacity: 0.9;
+	font-family: 'Roboto-Regular';
+}
+	
+.sidenav a {
+    padding: 20px 0 8px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #cccccc;
+    display: block;	
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav a:hover,#footer-twitter:hover, #footer-facebook:hover {
+	color: white;
+}
+
+.sideNavFooter, #footer-twitter, #footer-facebook {
+	color: #818181;
+	font-size: 28px;
+}
+#footer-twitter {
+	margin-left: 780px;
+	margin-top: -70px;
+}
+#footer-facebook {
+    margin-left: 900px;
+	margin-top: -58px;
+}
+
+#footerText {
+	margin-top: 145px;
+	font-family: 'Roboto-Light';
+	font-size: 20px;
+	margin-left: 550px;
+}
+
+#faBar {
+	font-size: 26px;
+	margin-left: 30px;
+}
+#faBar:hover {
+	color: #cccccc;
+}
+
+#row2, .row2smallContainer  {
+	height: 481px;
+}
+
+.imgStyle {
+	margin-left: 185px;
+	margin-top: 100px;
+}
+
+#row2Circle {
+	margin-left: 197px;
+}
+
+#row22dCube {
+	margin-left: 198px;
+}
+
+.row2textStyle {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Roboto-Bold';
+	letter-spacing: 2px;
+}
+
+.row2hr {
+    text-align: center;
+	width: 10%;
+}
+
+.row2text2 {
+	text-align: center;
+	color: grey;
+	letter-spacing: 1px;
+	line-height: 150%;
+	font-family: 'Roboto-Light';
+	font-size: 15px;
+	margin-top: 25px;
+}
+
+.row2smallContainer {
+	width: 33.33333333%;
+	background-color: #fbfbfb;
+	float: left;
+}
+
+#container2 {
+	background-color: #ededed;
+}
+
+#row3 {
+	height: 471px;
+}
+
+#row3title, #row3title2 {
+	text-align: center;
+	font-family: 'Roboto-Regular';
+}
+
+#row3title {
+	margin-top: 100px;
+	color: #999999;
+	font-weight: lighter;
+}
+
+#row3title2 {
+    font-size: 55px;
+	margin-top: 5px;
+}
+#row3hr {
+	border-width: 1px;
+	border-color: #c41230;
+	text-align: center;
+	width: 4%;
+	margin-top: -19px;
+}
+
+#row3text {
+	text-align: center;
+	font-family: 'Roboto-Regular';
+	font-weight: lighter;
+	color: #2c2d2d;
+	font-size: 25px;
+	line-height: 150%;
+}
+
+#row4 {
+	height: 780px;
+	font-family: 'Roboto-Regular';
+}
+
+.row4box1 {
+	width: 66.66666667%;
+}
+.row4box2 {
+	 width: 33.33333333%;
+}
+
+.smallbox {
+	border-width: 1px;
+	border-color: grey;
+	text-align: center;
+	color: red;
+	border-style: solid;
+	height: 26px;
+	width: 100px;
+	float: left;
+	margin-left: 8px;
+	padding-top: 10px;
+	font-size: 15px;
+	margin-top: 10px;
+	
+}
+
+p.row4title, p.row4text, div.row4boxMargin {
+	margin-left: 300px;
+}
+
+p.row4title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 45px;
+	letter-spacing: 1px;
+}
+
+p.row4text {
+	color: #2c2d2d;
+	font-size: 20px;
+	margin-top: 9px;
+	font-weight: lighter;
+}
+
+.row4text2 {
+	color: #ecdfe1 !important;
+}
+
+.row4dugme {
+	height: 50px;
+	width: 180px;
+	border-width: 2px;
+	border-radius:2px;
+	border-style: solid;
+	color: black;
+	border-color: black;
+	text-decoration: none;
+	background-color: white;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 105px;
+	margin-left: 30px;
+	font-weight: lighter;
+}
+
+#row4dugme {
+	color: white;
+	border-color: white;
+	background-color: #222222;
+}
+
+#row4dugme:hover {
+	color: #222222;
+	background-color: white;
+}
+
+.row4dugme:hover {
+	background-color: #222222;
+	color: white;
+}
+
+.jobsContainer {
+	width: 100%;
+	height: 260px;
+}
+#jobsContainer2 {
+	background-color: #222222;
+}
+
+#row5 {
+	height: 292px;
+}
+
+#row5button {
+	height: 50px;
+	width: 180px;
+	border: none;
+	background-color: #eff0f2;
+	margin-left: 640px;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 90px;
+}
+#row5button:hover {
+	border-style: solid;
+	border-color: #333333;
+}
+
+#row6 {
+	height: 624px;
+	background-color: #fbfbfb;
+} 
+
+#row6title1, #row6title2 {
+	text-align: center;
+	font-family: 'Roboto-Regular';
+}
+
+#row6title1 {
+	margin-top: 100px;
+	color: #999999;
+}
+
+#row6title2 {
+	font-size: 48px;
+	margin-top: 18px;
+}
+
+#row6hr {
+	margin-top: -15px;
+}
+
+.row6text {
+	margin-left: 370px;
+	padding-right: 275px;
+	color: #222222;
+	font-family: 'Roboto-Light';
+}
+#row6text {
+	margin-top: 30px;
+}
+
+#row7 {
+	height: 312px;
+}
+
+#row7text {
+	text-align: center;
+	color: #999999;
+	font-family: 'Roboto-Regular';
+	letter-spacing: 2px;
+	margin-top: 110px;
+}
+
+.containerForSocial {
+	height: 62px;
+	width: 62px;
+	background-color: #20b9ff;
+	margin-left: 5px;
+	float: left;
+	font-size: 34px;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+
+#twitterContainer {
+	margin-left: 650px;
+}
+
+i.fa.fa-twitter, i.fa.fa-facebook {
+	padding-top: 12px;
+}
+
+
+
+#facebookSocial {
+	background-color: #3c5a9a;
+}
+
+#row8 {
+	height: 449px;
+	background-color: #222222;
+}
+
+.row8line {
+	width: 50%;
+	background-color: #000000;
+	height: 70px;	
+}
+.row8box {
+    width: 33.33333333%;
+}
+
+#footerHeight {
+	height: 378px;
+}
+
+.row8place {
+	margin-top: -25px;
+	color: #f2f2f2;
+
+}
+p.row8place.row8placeposition {
+	margin-left: 200px;
+}
+p.row8place, img.row8image, p.row8text {
+	margin-left: 170px;
+}
+
+p.row8place, p.row8text {
+	font-family: 'Roboto-Regular';
+}
+
+p.row8text {
+	color: #424242;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+img.row8image {
+	margin-top: 100px;
+}
+
+#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	margin-left: 280px;
+}
+
+p#row8dubaiplace {
+	margin-left: 305px;
+}
+
+#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	margin-left: 80px;
+}
+p#row8belgradeplace {
+    margin-left: 105px;
+}
+
+.row8copyrightText, .diwaneeUrl {
+	color: #434343;
+	font-family: 'Roboto-Light';
+}
+
+.row8copyrightText {
+	margin-left: 270px;
+	margin-top: 30px;
+	font-size: 12px;
+}
+
+i.row8footerIcons {
+	font-size:24px; 
+	color: #666666;
+}
+
+#linkedInIcon {
+	margin-left: 260px;
+	margin-top: 20px;
+}
+
+#twitterIcon,#linkedInIcon {
+	float: left;
+}
+
+#twitterIcon {
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+/*Safari style za font-awesome ikone row8*/
+a {
+	text-decoration: none;
+}
+.diwaneeUrl {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-family: 'Roboto-Light';
+	font-size: 13px;
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+	#main-container, #row1 {
+	    width: 1280px;
+	
+    }
+	#diwaneeLogo {
+	    margin-left: 200px;
+		margin-top: 15px;
+    }
+	#nav {
+	    margin-top: 25px;
+    }
+	#title {
+	    font-size: 68px;
+	    margin-left: 20px;
+	    margin-top: 110px;
+		text-align: center;
+		font-family: 'Roboto-Medium';
+	
+	}
+	#row1 {
+	    height: 600px;
+	} 
+	#row2, .row2smallContainer  {
+	   height: 400px;
+    } 
+	#row2Circle {
+	    margin-left: 173px;
+    }
+
+    #row22dCube {
+	    margin-left: 198px;
+    }
+	.row2text2 {
+	    font-size: 13px;
+		margin-top: 15px;
+		padding-right: 15px;
+		padding-left: 15px;
+    }
+	.imgStyle {
+	    margin-left: 185px;
+	    margin-top: 60px;
+    }
+	#row22dCube {
+	    margin-left: 173px;
+    }
+
+	#row2Triangle {
+        margin-left: 165px;
+	}
+	p.row4title, p.row4text, div.row4boxMargin {
+	    margin-left: 220px;
+    }
+	.row4dugme {
+	    height: 40px;
+	    width: 160px;
+	    font-size: 14px;
+    } 
+	#row5button {
+	    margin-left: 545px;
+    }
+	.row6text {
+		margin-left: 280px;
+		padding-right: 255px;
+    }
+	#twitterContainer {
+	    margin-left: 575px;
+    }
+	p.row8place, img.row8image, p.row8text {
+	    margin-left: 120px;
+    }
+	p.row8place.row8placeposition {
+	   margin-left: 145px;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	    margin-left: 225px;
+    }
+
+    p#row8dubaiplace {
+	    margin-left: 252px;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	    margin-left: 45px;
+    }
+    p#row8belgradeplace {
+        margin-left: 73px;
+    }
+	.row8copyrightText {
+	    margin-left: 220px;
+	    margin-top: 30px;
+	    font-size: 10px;
+    }
+	#twitterIcon {
+	    margin-left: 20px;
+	    margin-top: 10px;
+    }
+	#linkedInIcon {
+	    margin-left: 210px;
+	    margin-top: 20px;
+    }
+
+    
+
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	#main-container, #row1 {
+	    width: 1024px;
+	
+	}
+	#row1 {
+	    height: 487px;
+	
+	}
+	#title {
+		
+		font-family: 'Roboto-Medium';
+		
+	    font-size: 70px;
+	    margin-left: 235px;
+	    margin-top: 50px;
+	
+	}
+	#hr1 {
+		display: none;
+	}
+	#diwaneeLogo {
+	    margin-left: 50px;
+		margin-top: 20px;
+	    height: 30px;
+	}
+	#line3 {
+		margin-top: 20px;
+	}
+	#nav {
+		visibility: hidden;
+	}
+	#menu {
+		visibility: visible;
+	}
+
+	#row2, .row2smallContainer  {
+	    height: 448px;
+	}
+	.imgStyle {
+		margin-top: 40px;
+	    height: 62px;
+	}
+	#row22dCube {
+	    margin-left: 138px;
+    }
+
+	#row2Triangle {
+        margin-left: 130px;
+	}
+	#row2Circle {
+        margin-left: 137px;
+	}
+	.row2textStyle {
+		margin-top: 20px;
+		letter-spacing: 3px;
+	}
+	.row2hr {
+       margin-top: 8px;
+	}
+	.row2text2 {
+		letter-spacing: 0;
+		font-size: 14px;
+		line-height: 200%;
+		padding-left: 15px;
+		padding-right: 15px;
+		
+	}
+	#row3 {
+	    height: 482px;
+    }
+	#row3title {
+		margin-top: 110px;
+	}
+	p.row4title, p.row4text, div.row4boxMargin {
+	    margin-left: 75px;
+	}
+	p.row4title {
+		font-size: 18px;
+	}
+	p.row4text {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.smallbox {
+	    
+	    height: 22px;
+	    width: 90px;
+	    padding-top: 6px;
+	    font-size: 14px;
+	   
+	}
+	.row4dugme {
+		margin-left: 100px;	
+	} 
+	#row5 {
+	    height: 262px;
+    }
+	#row5button {
+	    margin-left: 417px;
+	}
+	.row6text {
+		margin-left: 140px;
+		font-size: 17px;
+		line-height: 150%;	
+		padding-right: 100px;
+	}
+	#twitterContainer {
+	    margin-left: 447px;
+	}
+	p.row8place, img.row8image, p.row8text {
+	    margin-left: 80px;
+    }
+	p.row8place.row8placeposition {
+	   margin-left: 105px;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	    margin-left: 140px;
+    }
+
+    p#row8dubaiplace {
+	    margin-left: 165px;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	    margin-left: 55px;
+    }
+    p#row8belgradeplace {
+        margin-left: 80px;
+	}
+	.row8copyrightText {
+	    margin-left: 128px;
+	    margin-top: 30px;
+	    
+	}
+	#twitterIcon {
+	    margin-left: 20px;
+	    margin-top: 10px;
+    }
+	#linkedInIcon {
+	    margin-left: 225px;
+	    margin-top: 20px;
+	}
+	.diwaneeUrl {
+	    
+	    margin-left: 45px;
+	    margin-top: 30px;
+	
+	    font-size: 14px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #main-container, #row1 {
+	    width: 768px;
+	
+	}
+	#row1 {
+	    height: 400px;
+	
+	}
+	#title {
+	    font-family: 'Roboto-Medium';
+	    font-size: 40px;
+	    margin-left: 235px;
+	    margin-top: 20px;
+	
+	}
+	#row1text {
+	    font-size: 18px;
+	    margin-top: -15px;
+    }
+	#hr1 {
+		display: none;
+	}
+	#diwaneeLogo {
+	    margin-left: 35px;
+		margin-top: 20px;
+	    height: 25px;
+	}
+	#line3 {
+		margin-top: 20px;
+	}
+	#nav {
+		visibility: hidden;
+	}
+	#menu {
+		visibility: visible;
+	}
+
+	#faBar {
+	    margin-left: 20px;
+	}
+	
+	.sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 17px;
+        font-size: 36px;
+        margin-left: 50px;
+	}
+	
+	.sidenav {
+		height: 290px;
+	}
+	.sidenav a {
+		font-size: 15px;
+	}
+
+	#footer-twitter {
+	    margin-left: 580px;
+	    margin-top: -60px;
+    }
+    #footer-facebook {
+        margin-left: 675px;
+	    margin-top: -58px;
+    }
+
+    #footerText {
+	    margin-top: 113px;
+	    font-size: 15px;
+	    margin-left: 435px;
+    }
+
+	#row2, .row2smallContainer  {
+	    height: 400px;
+	}
+	.imgStyle {
+		margin-top: 30px;
+	    height: 62px;
+	}
+	#row22dCube {
+	    margin-left: 98px;
+    }
+
+	#row2Triangle {
+        margin-left: 94px;
+	}
+	#row2Circle {
+        margin-left: 98px;
+	}
+	.row2textStyle {
+	    font-size: 19px;
+	    letter-spacing: 1px;
+	}
+
+	.row2text2 {
+	    letter-spacing: 1px;
+	    line-height: 125%;
+	    font-size: 15px;
+		margin-top: 22px;
+		padding-left: 5px;
+		padding-right: 5px;
+    }
+	.row2hr {
+       margin-top: 5px;
+	}
+
+	#row3 {
+	    height: 482px;
+    }
+
+	#row3title {
+		margin-top: 110px;
+	}
+
+	#row4 {
+	    height: 720px;
+	}
+	
+	.jobsContainer {
+	    height: 240px;
+    } 
+	
+	p.row4title, p.row4text, div.row4boxMargin {
+	    margin-left: 45px;
+	}
+	
+	p.row4title {
+		font-size: 17px;
+	}
+	
+	p.row4text {
+		font-size: 15px;
+	}
+	
+	.smallbox {
+	    margin-top: 20px;    
+	    height: 22px;
+	    width: 90px;
+	    padding-top: 6px;
+	    font-size: 13px;
+	}
+	
+	.row4dugme {
+	    height: 38px;
+	    width: 145px;
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	    margin-top: 105px;
+	    margin-left: 30px;
+
+	}
+	#row5 {
+	    height: 200px;
+    }
+	
+	#row5button {
+		margin-left: 302px; 
+		font-size: 12px;
+		height: 40px;
+		width: 158px;
+		letter-spacing: 0;
+		border-width: 1px;
+	}
+	#row6 {
+	    height: 500px;
+    } 
+	#row6title1 {
+	    margin-top: 60px;
+    }
+
+	.row6text {
+		margin-left: 45px;
+		font-size: 15px;
+		line-height: 180%;	
+		padding-right: 50px;
+	}
+	#twitterContainer {
+	    margin-left: 320px;
+	}
+	p.row8place, img.row8image, p.row8text {
+	    margin-left: 40px;
+	}
+	p.row8text {
+		font-size: 15px;
+	}
+	p.row8place.row8placeposition {
+	   margin-left: 67px;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	    margin-left: 60px;
+    }
+
+    p#row8dubaiplace {
+	    margin-left: 88px;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	    margin-left: 40px;
+    }
+    p#row8belgradeplace {
+        margin-left: 67px;
+	}
+
+	#row8 {
+	    height: 378px;
+	
+	}
+	#footerHeight {
+	    height: 325px;
+    }
+	.row8copyrightText {
+	    margin-left: 60px;
+		margin-top: 30px;
+		font-size: 11px;
+	    
+	}
+	#twitterIcon {
+	    margin-left: 20px;
+	    margin-top: 10px;
+    }
+	#linkedInIcon {
+	    margin-left: 120px;
+	    margin-top: 20px;
+	}
+	.diwaneeUrl {	    
+	    margin-left: 205px;
+	    margin-top: -21px;	
+	    font-size: 14px;
+	}
+	
+}
+
+@media (min-width: 480px) and (max-width: 560px) {
+    #row1 {
+	    height: 600px;	
+		background-image: url("../img/Belgrade_320.jpg");
+	}
+	.sidenav {
+		top: 50px;
+		height: 490px;
+	    width: 0;
+	    margin: 0;
+	    right: 0;
+	}
+	#footer-twitter {
+	    margin-left: 60%;
+	    margin-top: -75px;
+    }
+    #footer-facebook {
+        margin-left: 80%;
+	    margin-top: -67px;
+    }
+
+    #footerText {
+	    margin-top: 250px;
+	    font-size: 20px;
+	    margin-left: 27%;
+	 }
+	.sidenav a {
+        padding: 30px 0 8px 0;
+        font-size: 25px;
+	}
+	#row8table1 {
+		position: absolute;
+		right: 0;
+		top: 4950px;
+		background-color: #1e1e1e;
+	}
+	#row8table2 {
+		position: absolute;
+		right: 0;
+		top: 4864px;
+		background-color: #222222;
+		height: 88px;
+	}
+}
+@media (min-width: 561px) and (max-width: 767px) {
+    #row1 {
+	    height: 420px;	
+		background-image: url("../img/Vector_Smart_Object.jpg");
+	}
+	.sidenav {
+		top: 50px;
+		height: 310px;
+	    width: 0;
+	    margin: 0;
+	    right: 0;
+	}
+	#footer-twitter {
+	    margin-left: 60%;
+	    margin-top: -75px;
+    }
+    #footer-facebook {
+        margin-left: 80%;
+	    margin-top: -67px;
+    }
+
+    #footerText {
+	    margin-top: 80px;
+	    font-size: 20px;
+	    margin-left: 27%;
+	 }
+	.sidenav a {
+        padding: 30px 8px 8px 32px;
+        font-size: 18px;
+	}
+	#row8table1 {
+		position: absolute;
+		right: 0;
+		top: 4790px;
+		background-color: #1e1e1e;
+	}
+	#row8table2 {
+		position: absolute;
+		right: 0;
+		top: 4703px;
+		background-color: #222222;
+		height: 88px;
+	}
+}
+
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	#main-container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#row1, #main-container {
+		width: 100%;
+	}
+	#row1 {	
+	    background-size: 100% 100%;
+	}
+	#title {
+		font-size: 42px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	#title, #row1text2 {
+		font-family: 'Roboto-Medium';
+	}
+	#row1text2 {
+		display: block;
+		text-align: center;
+		margin-top: 40px;
+		font-size: 21px;
+	}
+	#nav {
+		visibility: hidden;
+	}
+	#menu {
+		display: none;
+	}
+	#menuMobile {
+		display: block;
+		margin-left: -40px;
+		margin-top: 17px;
+	}
+	#diwaneeLogo {
+	    margin-left: 28px;
+		margin-top: 20px;
+	    height: 25px;
+	}
+	#hr1,#row1text  {
+		display: none;
+	}
+	
+	#closebtn {
+		display: none;
+	}
+	#row2, .row2smallContainer  {
+		height: auto;
+		width: 100%;
+	}
+	#row2 {
+		height: 1280px;
+	}
+	.imgStyle {
+		margin-top: 30px;
+		height: auto;
+	}
+	.row2smallContainer {
+        height: 420px;
+	}
+	#row22dCube,#row2Triangle,#row2Circle {
+		margin-top: 5%;
+		width: 16%;
+		margin-left: 42%;
+	}
+	.row2text2 {
+		font-size: 18px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	#row3 {
+		height: 482px;
+	}
+	#row3title {
+		margin-top: 70px;
+	}
+	#row3text {
+		padding: 12px 12px 12px 12px;
+	}
+	p.row4title, p.row4text, div.row4boxMargin {
+	    margin-left: 10%;
+	}
+	div.row4boxMargin {
+		margin-left: 6%;
+
+	}
+	
+	p.row4title {
+		font-size: 14px;
+	}
+	
+	p.row4text {
+		font-size: 11px;
+	}
+	
+	.smallbox {
+	    margin-top: 8px;    
+	    height: 18px;
+	    width: 70px;
+		font-size: 11px;
+		border: none;
+		margin-left: 1%;
+	}
+	.jobsContainer {
+		height: 180px;
+		background-color: #f8f7f5;
+	}
+	#jobsContainer2 {
+		background-color: white;
+	}
+	.row4text2 {
+		color: #2c2d2d !important;
+	}
+	div.smallbox.row4text2 {
+		color: red !important;
+	}
+	#row4 {
+		height: auto;
+	}
+	.row4dugme {
+		display: none;
+	}
+	#row5 {
+	    height: auto;
+    }
+
+	#row5button {
+		margin-left: 35%;
+		margin-right: auto;
+		margin-bottom: 100px; 
+		font-size: 12px;
+		height: 40px;
+		width: 30%;
+		letter-spacing: 0;
+		border-width: 1px;
+	}
+	#row6 {
+	    height: 640px;
+	} 
+	#row6title1 {
+	    margin-top: 60px;
+    }
+
+	.row6text {
+		margin-left: 3%;
+		margin-left: 3%;
+		font-size: 15px;
+		line-height: 180%;	
+		padding-right: 20px;
+	}
+	#twitterContainer {
+		margin-left: 38%;
+		width: 11.5%
+	}
+	#facebookSocial {
+		margin-left: 1%;
+		width: 11.5%;
+	}
+	#row7text {
+		margin: 0 auto;
+		margin-top: 70px; 
+		/*margin-left: 5%;*/
+		display: block; 
+	}
+	p.row8place, img.row8image, p.row8text {
+		margin-left: 40px;
+		
+	}
+	#row8 {
+		height: 280px;
+	}
+	p.row8text {
+		font-size: 12px;
+	}
+	p.row8place.row8placeposition {
+	   margin-left: 67px;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	    margin-left: 50px;
+    }
+
+    p#row8dubaiplace {
+	    margin-left: 78px;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	    margin-left: 40px;
+    }
+    p#row8belgradeplace {
+        margin-left: 67px;
+	}
+	#row8table1, #row8table2 {
+		width:100%
+	}
+	#row8table1 {
+		position: absolute;
+		right: 0;
+		top: 4260px;
+		background-color: #1e1e1e;
+		
+	}
+	#row8table2 {
+		position: absolute;
+		right: 0;
+		top: 4175px;
+		background-color: #222222;
+		height: 88px;
+	}
+	#twitterIcon {
+	    margin-left: 20px;
+	    margin-top: 10px;
+    }
+	#linkedInIcon {
+	    margin-left: 60px;
+	    margin-top: 20px;
+	}
+	.diwaneeUrl {
+	    
+	    margin-left: 45px;
+	    margin-top: 30px;
+	
+	    font-size: 14px;
+	}
+	.row8copyrightText {
+		margin-left: 60px;
+	}
+	
+}
+	
+	
+@media (min-width: 480px) and (max-width: 579px) {
+    #row7text {
+		 margin: 0 auto;
+		 margin-top: 70px; 
+		 display: block; 
+	}
+	#twitterContainer {
+		margin-left: 38%;
+		width: 11.5%
+	}
+	#facebookSocial {
+		margin-left: 1%;
+		width: 11.5%;
+	}
+	
+	
+	#row8 {
+		height: 977px;
+		
+	}	
+	#footerHeight {
+		height: 969px;
+		background-color: #222222;
+	}	
+	.row8copyrightText {
+	    margin-left: 1%;
+		margin-top: 5px;
+		font-size: 11px;
+	    
+	}
+	.row8line {
+	    width: 100%;
+	    height: 70px;	
+	}
+	
+	.row8box {
+        width: 100%;
+	}
+
+	p.row8place, img.row8image, p.row8text {
+	    margin-left: 20%;
+	}
+	p.row8text {
+		font-size: 19px;
+		font-weight: bold;
+	}
+	p.row8place {
+		font-size: 20px;
+	}
+	
+	p.row8place.row8placeposition {
+	   margin-left: 25%;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	     margin-left: 20%;
+    }
+
+    p#row8dubaiplace {
+	     margin-left: 25%;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	     margin-left: 20%;
+    }
+    p#row8belgradeplace {
+        margin-left: 25%;
+	}
+	
+	#twitterIcon {
+	    margin-left: 35px;
+		margin-top: 10px;
+		font-size: 50px;
+    }
+	#linkedInIcon {
+	    margin-left: 10%;
+		margin-top: 20px;
+		font-size: 50px;
+	}
+	.diwaneeUrl {	    
+	    margin-left: 5%;
+	    margin-top: 25px;	
+	    font-size: 27px;
+	}
+	.row8copyrightText {
+	    margin-left: 10%;
+		margin-top: 30px;
+		font-size: 15px;
+	    
+	}
+	#row8box1 {
+		margin-top: 50px;
+	}
+	#row8table1, #row8table2 {
+		width:100%
+	}
+	#row8table1 {
+		position: absolute;
+		right: 0;
+		top: 4967px;
+		background-color: #1e1e1e;
+		height: 85px;
+		
+	}
+	#row8table2 {
+		position: absolute;
+		right: 0;
+		top: 4880px;
+		background-color: #222222;
+		height: 88px;
+	}
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    #row1 {
+	    height: 556px;	
+		background-image: url("../img/Belgrade_320.jpg");
+	}
+	.sidenav {
+		top: 50px;
+		height: 446px;
+	    width: 0;
+	    margin: 0;
+	    right: 0;
+	}
+	#footer-twitter {
+	    margin-left: 50%;
+		margin-top: -78px;
+		
+    }
+    #footer-facebook {
+        margin-left: 75%;
+	    margin-top: -67px;
+    }
+
+    #footerText {
+	    margin-top: 180px;
+	    font-size: 20px;
+	    margin-left: -55%;
+	 }
+	.sidenav a {
+        padding: 30px 0 8px 0;
+        font-size: 25px;
+	}
+	#row8table1 {
+		position: absolute;
+		right: 0;
+		top: 4950px;
+		background-color: #1e1e1e;
+	}
+	#row8table2 {
+		position: absolute;
+		right: 0;
+		top: 4864px;
+		background-color: #222222;
+		height: 88px;
+	}
+	#main-container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#row1, #main-container {
+		width: 100%;
+	}
+	#row1 {	
+	    background-size: 100% 100%;
+	}
+	#title {
+		font-size: 55px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	#title, #row1text2 {
+		font-family: 'Roboto-Medium';
+	}
+	#row1text2 {
+		display: block;
+		text-align: center;
+		margin-top: 40px;
+		font-size: 21px;
+	}
+	#nav {
+		visibility: hidden;
+	}
+	#menu {
+		display: none;
+	}
+	#menuMobile {
+		display: block;
+		margin-left: -40px;
+		margin-top: 17px;
+	}
+	#diwaneeLogo {
+	    margin-left: 18px;
+		margin-top: 17px;
+	    height: 28px;
+	}
+	#hr1,#row1text  {
+		display: none;
+	}
+	
+	#closebtn {
+		display: none;
+	}
+	#row2, .row2smallContainer  {
+		height: auto;
+		width: 100%;
+	}
+	#row2 {
+		height: 1280px;
+	}
+	.imgStyle {
+		margin-top: 30px;
+		height: auto;
+	}
+	.row2smallContainer {
+        height: 470px;
+	}
+	#row22dCube,#row2Triangle,#row2Circle {
+		margin-top: 7%;
+		width: 30%;
+		margin-left: 35%;
+	}
+	.row2text2 {
+		font-size: 18px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#row3 {
+		height: 580px;
+	}
+	#row3title {
+		margin-top: 50px;
+	}
+	#row3title2 {
+		font-size: 42px;
+	}
+	#row3text {
+		margin-top: 3px;
+		padding: 12px 12px 12px 12px;
+	}
+	p.row4title, p.row4text, div.row4boxMargin {
+	    margin-left: 3%;
+	}
+	p.row4title {
+		margin-top: 15px;
+	}
+	div.row4boxMargin {
+		margin-left: 3%;
+
+	}
+	
+	p.row4title {
+		font-size: 14px;
+	}
+	
+	p.row4text {
+		font-size: 11px;
+		
+	}
+	
+	.smallbox {
+	    margin-top: 8px;    
+	    height: 18px;
+	    width: 15px;
+		font-size: 11px;
+		border: none;
+		margin-left: 47px;
+		white-space: nowrap;
+	}
+	.jobsContainer {
+		height: 160px;
+		background-color: #f8f7f5;
+	}
+	#jobsContainer2 {
+		background-color: white;
+	}
+	.row4text2 {
+		color: #2c2d2d !important;
+	}
+	div.smallbox.row4text2 {
+		color: red !important;
+	}
+	#row4 {
+		height: auto;
+	}
+	.row4dugme {
+		display: none;
+	}
+	#row5 {
+	    height: auto;
+    }
+
+	#row5button {
+		margin-left: 25%;
+		margin-right: auto;
+		margin-bottom: 100px; 
+		font-size: 12px;
+		height: 40px;
+		width: 50%;
+		letter-spacing: 0;
+		border-width: 1px;
+	}
+	#row6 {
+	    height: 840px;
+	} 
+	#row6title1 {
+	    margin-top: 60px;
+    }
+
+	.row6text {
+		margin-left: 3%;
+		margin-left: 3%;
+		font-size: 15px;
+		line-height: 180%;	
+		padding-right: 20px;
+	}
+	#row7text {
+		margin: 0 auto;
+		margin-top: 70px; 
+		
+		display: block; 
+	}
+	#twitterContainer {
+		margin-left: 26%;
+		width: 23%
+	}
+	#facebookSocial {
+		margin-left: 2%;
+		width: 23%;
+	}
+	#row8 {
+		height: 800px;
+		
+	}	
+	#footerHeight {
+	    height: auto;
+	}	
+	.row8copyrightText {
+	    margin-left: 1%;
+		margin-top: 5px;
+		font-size: 11px;
+	    
+	}
+	.row8line {
+	    width: 100%;
+	    height: 70px;	
+	}
+	
+	.row8box {
+        width: 100%;
+	}
+
+	p.row8place, img.row8image, p.row8text {
+	    margin-left: 8%;
+	}
+	p.row8text {
+		font-size: 19px;
+		font-weight: bold;
+	}
+	p.row8place {
+		font-size: 20px;
+	}
+	
+	p.row8place.row8placeposition {
+	   margin-left: 14%;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	     margin-left: 8%;
+    }
+
+    p#row8dubaiplace {
+	     margin-left: 14%;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	     margin-left: 8%;
+    }
+    p#row8belgradeplace {
+        margin-left: 14%;
+	}
+	
+	#twitterIcon {
+	    margin-left: 35px;
+		margin-top: 10px;
+		font-size: 35px;
+    }
+	#linkedInIcon {
+	    margin-left: 10%;
+		margin-top: 20px;
+		font-size: 35px;
+	}
+	.diwaneeUrl {	    
+	    margin-left: 10%;
+	    margin-top: 33px;	
+	    font-size: 14px;
+	}
+	.row8copyrightText {
+	    margin-left: 10%;
+		margin-top: 30px;
+		font-size: 9px;
+	    
+	}
+	#row8table1 {
+		position: absolute;
+		right: 0;
+		top: 5160px;
+		background-color: #1e1e1e;
+	}
+	#row8table2 {
+		position: absolute;
+		right: 0;
+		top: 5077px;
+		background-color: #222222;
+		height: 88px;
+	}
+}
+
+/*Internet Explorer styles*/
+
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+hr { display: block; margin: 0 auto; }
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 580px) and (max-width: 767px) {  
+	
+	
+	
+	p.row8place, img.row8image, p.row8text {
+		margin-left: 40px;
+		
+	}
+	
+	p.row8text {
+		font-size: 12px;
+	}
+	p.row8place.row8placeposition {
+	   margin-left: 67px;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	    margin-left: 50px;
+    }
+
+    p#row8dubaiplace {
+	    margin-left: 78px;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	    margin-left: 40px;
+    }
+    p#row8belgradeplace {
+        margin-left: 67px;
+	}
+    
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 320px) and (max-width: 579px) {
+	p.row8place, img.row8image, p.row8text {
+	    margin-left: 20vw;
+	}
+	p.row8text {
+		font-size: 15px;
+	}
+	p.row8place.row8placeposition {
+	   margin-left: 26vw;
+	} 
+
+	#row8dubaiImg, #row8dubaiplace, #row8dubaiText {
+	    margin-left: 20vw;
+    }
+
+    p#row8dubaiplace {
+	    margin-left: 26vw;
+    }
+
+	#row8belgradeImg, #row8belgradeplace, #row8belgradeText {
+	    margin-left: 20vw;
+    }
+    p#row8belgradeplace {
+        margin-left: 26vw;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 479px) {
+    #row7text {
+		    margin: 0 auto;
+		    margin-top: 70px; 
+		    margin-left: -5%;
+		    display: block; 
+		}
+}
